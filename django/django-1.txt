@@ -1,0 +1,9 @@
+1选择或新建任意文件夹执行:python -m venv <虚拟环境名称>  # 建立虚拟环境
+
+2.激活虚拟环境:source <虚拟环境名称>/bin/activate  # 取消激活虚拟环境:deactivate
+
+3.虚拟环境中安装django:pip install django
+
+4.创建项目:django-admin startproject <项目名称> .  # 最后的点重要
+
+5.
