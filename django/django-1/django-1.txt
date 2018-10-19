@@ -6,4 +6,10 @@
 
 4.创建项目:django-admin startproject <项目名称> .  # 最后的点重要
 
-5.
+5.打印helloworld操作见当前文件夹内的.py附件
+
+6.迁移数据库，确保数据库与当前项目状态匹配:python manage.py migrate
+
+7.创建超级用户:python manage.py createsuperuser
+
+8.尝试登录超级用户管理后台
