@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-# 调用views中的方法
+# 调用views中的方法,views在当前文件目录下，直接以.取代路径
 from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # 第一个参宿规定打开的网址,第二个参数：处理的方法
+    # 第一个参宿规定打开的网址,(留空即打开127.0.0.1:8000<默认端口为8000>),第二个参数：处理的方法
     path('', views.index),
     # 正则表达式写法
     # re_path(''$', views.index),
