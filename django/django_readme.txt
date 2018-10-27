@@ -1,5 +1,10 @@
 ------基于Linux环境------
 
+django学习简要笔记
+学习资源来自b站:http://space.bilibili.com/252028233/#/channel/detail?cid=28138
+感谢up主的无私分享！在此附上视频资源url。若您意外看到此文档又刚好想要学习django2.0请毫不犹豫点击以上链接
+笔记仅为个人学习记录方便查阅故此放在git上
+
 1.建立虚拟环境
 	python -m venv 虚拟环境名称
 
