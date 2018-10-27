@@ -1,0 +1,19 @@
+1.创建应用程序
+python manage.py startapp 应用名称
+
+2.编辑app内models.py文件，创建模型
+为模型创建标题以及内容
+
+3.在django项目中注册刚才创建的应用
+编辑settings.py文件INSTALLED_APPS字段，添加应用名称
+
+4.制造数据库迁移
+python manage.py makemigrations
+
+5.迁移数据库
+python manage.py migrate
+
+6.编辑APP内的admin.py文件
+在后台管理中注册创建的app
+
+7.启动服务器登录后台管理即可看到创建的应用程序
