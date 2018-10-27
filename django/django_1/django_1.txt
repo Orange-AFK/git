@@ -1,0 +1,27 @@
+输出hello world
+
+1.编辑主路由配置文件urls.py，具体配置参数在urls.py文件中注释说明
+
+2.写主路由path第二参数（处理方式）前在文件夹下新建views.py文件
+
+3.编辑完views.py文件后回到urls.py写处理方式
+
+4.启动网站，执行命令
+python manage.py runserver
+
+5.打开浏览器输入地址
+localhost:8000
+或
+127.0.0.1:8000
+即可看到网页上输出helloworld
+
+6.创建数据库
+python manage.py migrate
+
+7.创建超级管理员账号
+python manage.py createsuperuser
+按照提示进行相关信息输入
+
+8.浏览器打开localhost:8000/admin/
+或127.0.0.1:8000/admin/
+即可进到后台管理登录页面
