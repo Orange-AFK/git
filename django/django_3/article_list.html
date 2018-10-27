@@ -1,0 +1,10 @@
+<html>
+        <head>
+                <body>
+                        {% for article in articles %}
+			    <!--使用django提供的机制，传入url及定义的别名，最后一个参数为主键，让显示的文章标题能够点击跳转网页-->
+			    <a href="{% url 'article_detail' article.pk %}">{{ article.title }}</a>
+			{% endfor %}
+                </body>
+        </head>
+</html>
