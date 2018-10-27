@@ -15,3 +15,6 @@
 5.在django中创建项目
 	django-admin startproject 项目名称 .
 
+6.设置后台管理为中文界面
+编辑全局设置settings.py文件找到LANGUAGE_CODE字段，修改参数为
+zh-Hans
